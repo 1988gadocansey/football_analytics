@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.footballanalytics'
+version = '0.0.1-SNAPSHOT'
+description = 'Live football analytics platform'
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        sourceCompatibility = '21'
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        // Add common dependencies if needed for all subprojects
+    }
+}
+
+project(':Domain') {
+    apply plugin: 'java'
+
+    java {
+        // Specific configuration for the 'domain' module if needed
+    }
+}
+
+project(':Infrastructure') {
+    apply plugin: 'java'
+
+    java {
+        // Specific configuration for the 'infrastructure' module if needed
+    }
+}
