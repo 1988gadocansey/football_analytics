@@ -1,2 +1,4 @@
-package com.footballanalytics.backend.domain.commons;public class Config {
+package com.footballanalytics.backend.domain.commons;
+
+public class Config {
 }

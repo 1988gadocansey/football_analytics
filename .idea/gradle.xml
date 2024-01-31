@@ -8,6 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Application" />
+            <option value="$PROJECT_DIR$/Domain" />
+            <option value="$PROJECT_DIR$/Endpoint" />
+            <option value="$PROJECT_DIR$/Infrastructure" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,2 +1,6 @@
-package com.footballanalytics.backend.domain.commons;public record BaseEvent() {
+package com.footballanalytics.backend.domain.commons;
+/*
+    using a notification system to manage the lifecycle of an entity
+ */
+public record BaseEvent() {
 }
