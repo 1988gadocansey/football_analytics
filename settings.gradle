@@ -1,6 +1,7 @@
 
+include 'Endpoint'
 include 'Domain'
 include 'Infrastructure'
 include 'Application'
-include 'Endpoint'
+
 

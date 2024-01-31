@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/football_analytics.Application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/football_analytics.Application.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Domain/football_analytics.Domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Domain/football_analytics.Domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Endpoint/football_analytics.Endpoint.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Endpoint/football_analytics.Endpoint.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Infrastructure/football_analytics.Infrastructure.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Infrastructure/football_analytics.Infrastructure.main.iml" />
     </modules>
   </component>
 </project>
