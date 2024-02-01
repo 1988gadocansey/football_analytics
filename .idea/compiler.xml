@@ -19,6 +19,7 @@
         </processorPath>
         <module name="football_analytics.Endpoint.main" />
         <module name="football_analytics.Application.main" />
+        <module name="football_analytics.Infrastructure.main" />
       </profile>
     </annotationProcessing>
   </component>

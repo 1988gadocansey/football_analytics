@@ -1,6 +1,7 @@
 package footballanalytics.backend.Endpoint.v1.players;
 
-import com.footballanalytics.backend.Application.dto.PlayerDao;
+
+import com.footballanalytics.backend.Application.common.interfaces.PlayerService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
@@ -17,7 +18,7 @@ import reactor.core.publisher.Flux;
 @RequestMapping("/api/v1/integers")
 public class PlayerEndpoint {
 
-    private final PlayerDao playerDao;
+    private final PlayerService playerService;
     @GetMapping( value = "/index",produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     @ResponseStatus(HttpStatus.OK)
 

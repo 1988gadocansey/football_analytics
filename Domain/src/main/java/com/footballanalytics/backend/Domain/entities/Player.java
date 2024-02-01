@@ -23,6 +23,10 @@ public class Player {
     private int minutesPlayed;
     private Team currentTeam;
     private String Avatar;
+   /* @ManyToOne
+    @JoinColumn(name = "CUSTOMER", referencedColumnName = "ID")
+ */
+
 
 
     public void scoreGoal() {
