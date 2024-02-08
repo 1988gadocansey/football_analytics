@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/football_analytics.Application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/football_analytics.Application.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Domain/football_analytics.Domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Domain/football_analytics.Domain.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Endpoint/football_analytics.Endpoint.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Endpoint/football_analytics.Endpoint.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Infrastructure/football_analytics.Infrastructure.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Infrastructure/football_analytics.Infrastructure.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Web/football_analytics.Web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Web/football_analytics.Web.main.iml" />
     </modules>
   </component>
 </project>

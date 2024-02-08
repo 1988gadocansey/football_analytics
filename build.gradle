@@ -10,7 +10,7 @@ subprojects {
     apply plugin: 'java'
 
     java {
-        sourceCompatibility = '17'
+        sourceCompatibility = '19.0.1'
     }
 
     repositories {
@@ -24,7 +24,7 @@ subprojects {
 
 
 
-project(':Endpoint') {
+project(':Web') {
     apply plugin: 'java'
 
     java {
@@ -33,6 +33,20 @@ project(':Endpoint') {
 }
 
 project(':Domain') {
+    apply plugin: 'java'
+
+    java {
+        // Specific configuration for the 'infrastructure' module if needed
+    }
+}
+project(':Application') {
+    apply plugin: 'java'
+
+    java {
+        // Specific configuration for the 'infrastructure' module if needed
+    }
+}
+project(':Infrastructure') {
     apply plugin: 'java'
 
     java {

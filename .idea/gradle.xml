@@ -10,8 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Application" />
             <option value="$PROJECT_DIR$/Domain" />
-            <option value="$PROJECT_DIR$/Endpoint" />
             <option value="$PROJECT_DIR$/Infrastructure" />
+            <option value="$PROJECT_DIR$/Web" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,5 +1,5 @@
 
-include 'Endpoint'
+include 'Web'
 include 'Domain'
 include 'Infrastructure'
 include 'Application'
